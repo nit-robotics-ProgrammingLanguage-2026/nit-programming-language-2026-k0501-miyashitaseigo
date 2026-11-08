@@ -1,16 +1,20 @@
 #include <stdio.h>
 
-int main(void)
-{
-    int input;
-    scanf("%d", &input);
-    if (0 /* TODO: ここに条件式を書く */)
-    {
-        printf("OK");
+int main(void) {
+    int x;
+
+    // 数値を入力する
+    scanf("%d", &x);
+
+    // 0 以上 10 未満の判定
+    if (0 <= x && x < 10) {
+        printf("OK\n");
+    } else {
+        printf("NG\n");
     }
-    else
-    {
-        printf("NG");
-    }
+
     return 0;
 }
+git add .
+git commit –m 課題0501作成”
+git push
