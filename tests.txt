@@ -3,3 +3,6 @@
 0 OK
 9 OK
 10 NG
+git add .
+git commit –m “課題0501作成”
+git push
