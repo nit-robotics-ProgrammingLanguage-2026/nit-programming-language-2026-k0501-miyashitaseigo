@@ -15,3 +15,6 @@ int main(void) {
 
     return 0;
 }
+git add .
+git commit –m 課題0501作成”
+git push
